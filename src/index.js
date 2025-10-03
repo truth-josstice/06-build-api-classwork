@@ -1,6 +1,6 @@
 const PORT = process.env.PORT || 3000;
 
-const { dbConnect } = require("../database/connectionManager");
+const { dbConnect } = require("./database/connectionManager");
 // COnnect to the database
 
 // Activate express server

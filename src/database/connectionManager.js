@@ -2,6 +2,8 @@
 // such as connecting, disconnecting, seeding, and deleting from the database 
 
 const { default: mongoose } = require("mongoose");
+const { UserModel } = require("./models/user");
+const { ArticleModel } = require("./models/article");
 
 async function dbConnect(){
 	try {
